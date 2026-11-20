@@ -1,0 +1,40 @@
+[
+  {
+    "id": "delhi",
+    "name": "Delhi NCT",
+    "fullName": "Delhi National Capital Territory",
+    "state": "Delhi",
+    "status": "active",
+    "coverage": "Active Coverage: MCD (250 wards), PWD Delhi, Delhi Jal Board, Delhi Traffic Police",
+    "wardsCount": 250
+  },
+  {
+    "id": "ghaziabad",
+    "name": "Ghaziabad",
+    "fullName": "Ghaziabad Municipal District",
+    "state": "Uttar Pradesh",
+    "status": "active",
+    "coverage": "Active Coverage: Ghaziabad Nagar Nigam (100 wards, Zones I–V), GDA, UP Jal Nigam",
+    "wardsCount": 100
+  },
+  {
+    "id": "noida",
+    "name": "Noida",
+    "fullName": "New Okhla Industrial Development Authority",
+    "state": "Uttar Pradesh",
+    "status": "coming_soon",
+    "coverage": "Sector administration, NOIDA Authority Citizen Charter",
+    "wardsCount": 0,
+    "comingSoonNote": "Noida Authority administrative cadastral layer is currently in field mapping."
+  },
+  {
+    "id": "gurugram",
+    "name": "Gurugram",
+    "fullName": "Municipal Corporation of Gurugram (MCG)",
+    "state": "Haryana",
+    "status": "coming_soon",
+    "coverage": "MCG Zones 1–4, GMDA metropolitan road network",
+    "wardsCount": 35,
+    "comingSoonNote": "MCG and GMDA jurisdictional division data is currently in verification."
+  }
+]

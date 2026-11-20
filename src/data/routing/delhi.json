@@ -1,0 +1,224 @@
+{
+  "city": "delhi",
+  "cityName": "Delhi NCT",
+  "locations": [
+    {
+      "id": "anand_vihar_delhi",
+      "name": "Anand Vihar ISBT & Surajmal Vihar Road",
+      "zone": "Shahdara South (Ward 208)",
+      "isBorder": true,
+      "borderDetails": {
+        "pairedLocationId": "kaushambi_ghaziabad",
+        "pairedLocationName": "Kaushambi Bus Terminal (Ghaziabad)",
+        "explanation": "This side of Road 56 lies inside the Delhi boundary pillar, routing all civic complaints to Delhi authorities rather than Uttar Pradesh."
+      },
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Horticulture Department (Shahdara South Zone)",
+          "portal": {
+            "name": "MCD 311 Citizen App / MCD Online Portal",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Horticulture' > 'Fallen Tree Removal' > Ward 208"
+          },
+          "reason": "Because this stretch lies on the Delhi side of the Ghazipur drain border, roadside tree clearance is legally assigned to MCD Shahdara South.",
+          "verified": true,
+          "verified_on": "2026-11-14"
+        },
+        "damaged_road": {
+          "responsible_authority": "Public Works Department (PWD) Delhi — Road Division (East)",
+          "portal": {
+            "name": "PWD Delhi Sewa Grievance Portal",
+            "url": "https://pwd.delhi.gov.in",
+            "field_hint": "Select 'Road Maintenance' > 'Arterial Corridor (Road No. 56)'"
+          },
+          "reason": "Road No. 56 is an inter-state arterial corridor wider than 60 feet, placing asphalt maintenance under Delhi PWD rather than the municipal ward.",
+          "verified": true,
+          "verified_on": "2026-11-15"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Department of Environment & Sanitation",
+          "portal": {
+            "name": "MCD 311 Citizen App",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Sanitation & Solid Waste' > 'Dhalao Overflow'"
+          },
+          "reason": "Primary waste clearance and collection depots on the Anand Vihar approach are serviced by the MCD Shahdara South sanitation contractor.",
+          "verified": true,
+          "verified_on": "2026-11-12"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Delhi Traffic Police — Traffic Engineering & Signal Cell",
+          "portal": {
+            "name": "Delhi Traffic Police Grievance Portal & Sentinel",
+            "url": "https://delhitrafficpolice.nic.in",
+            "field_hint": "Select 'Traffic Infrastructure' > 'Signal Malfunction'"
+          },
+          "reason": "Traffic control lights at the Anand Vihar ISBT junction are operated directly by the Delhi Traffic Police signals unit.",
+          "verified": false,
+          "verified_on": null
+        }
+      }
+    },
+    {
+      "id": "apsara_border_delhi",
+      "name": "Apsara Border & GT Road West Approach",
+      "zone": "Shahdara North (Ward 225)",
+      "isBorder": true,
+      "borderDetails": {
+        "pairedLocationId": "maharajpur_ghaziabad",
+        "pairedLocationName": "Maharajpur Checkpost (Ghaziabad)",
+        "explanation": "Points west of the Delhi border police booth fall under the jurisdiction of Shahdara North MCD and Delhi PWD."
+      },
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Horticulture Division (Shahdara North)",
+          "portal": {
+            "name": "MCD 311 Citizen App",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Horticulture' > 'Shahdara North'"
+          },
+          "reason": "Roadside tree canopies along the western approach to Apsara Border are maintained by MCD Shahdara North.",
+          "verified": true,
+          "verified_on": "2026-11-10"
+        },
+        "damaged_road": {
+          "responsible_authority": "Public Works Department (PWD) Delhi — Division M-31",
+          "portal": {
+            "name": "PWD Delhi Sewa Grievance Portal",
+            "url": "https://pwd.delhi.gov.in",
+            "field_hint": "Select 'Grand Trunk Road West Approach (NH-1 Alternate)'"
+          },
+          "reason": "The Grand Trunk Road approach up to the border toll pillar is classified as an arterial highway managed by Delhi PWD.",
+          "verified": true,
+          "verified_on": "2026-11-10"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Sanitation Wing (Shahdara North)",
+          "portal": {
+            "name": "MCD 311 Citizen App",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Garbage Vulnerable Point (GVP)'"
+          },
+          "reason": "Street sweeping and waste transfer on the Delhi side of the GT Road border are governed by MCD Shahdara North sanitation ward.",
+          "verified": true,
+          "verified_on": "2026-11-12"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Delhi Traffic Police — Northern Range Signals Division",
+          "portal": {
+            "name": "Delhi Traffic Police Online Portal",
+            "url": "https://delhitrafficpolice.nic.in",
+            "field_hint": "Select 'Signals' > 'Apsara Border Intersection'"
+          },
+          "reason": "Signal hardware at the Apsara Border rotary is owned and serviced by the Delhi Police traffic signals contractor.",
+          "verified": false,
+          "verified_on": null
+        }
+      }
+    },
+    {
+      "id": "connaught_place_delhi",
+      "name": "Connaught Place Radial Roads & Barakhamba",
+      "zone": "New Delhi Municipal Council (NDMC Special Jurisdiction)",
+      "isBorder": false,
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "New Delhi Municipal Council (NDMC) — Horticulture Department",
+          "portal": {
+            "name": "NDMC 311 Citizen App",
+            "url": "https://online.ndmc.gov.in",
+            "field_hint": "Select 'Horticulture' > 'Tree Emergency'"
+          },
+          "reason": "Connaught Place and adjoining radial avenues fall under the exclusive municipal charter of NDMC rather than MCD.",
+          "verified": true,
+          "verified_on": "2026-11-16"
+        },
+        "damaged_road": {
+          "responsible_authority": "New Delhi Municipal Council (NDMC) — Civil Engineering Department",
+          "portal": {
+            "name": "NDMC 311 Citizen App",
+            "url": "https://online.ndmc.gov.in",
+            "field_hint": "Select 'Civil Roads' > 'Connaught Place Radial'"
+          },
+          "reason": "All inner, middle, and radial roads in CP are maintained directly by NDMC civil engineering division.",
+          "verified": true,
+          "verified_on": "2026-11-16"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "New Delhi Municipal Council (NDMC) — Public Health Department",
+          "portal": {
+            "name": "NDMC 311 Citizen App",
+            "url": "https://online.ndmc.gov.in",
+            "field_hint": "Select 'Public Health' > 'Commercial Waste Compactor'"
+          },
+          "reason": "Commercial bin collection and automated sweeping in Connaught Place are executed round-the-clock by NDMC sanitation teams.",
+          "verified": true,
+          "verified_on": "2026-11-17"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Delhi Traffic Police in coordination with NDMC Electrical Wing",
+          "portal": {
+            "name": "NDMC 311 / Delhi Traffic Police Sentinel",
+            "url": "https://delhitrafficpolice.nic.in",
+            "field_hint": "Select 'Traffic Light Defect' > 'Barakhamba Radial'"
+          },
+          "reason": "Radial road signals are timed by Delhi Traffic Police with electrical grid power supplied through NDMC.",
+          "verified": true,
+          "verified_on": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "lajpat_nagar_delhi",
+      "name": "Lajpat Nagar Central Market & Feroze Gandhi Marg",
+      "zone": "South Delhi Zone (Ward 142)",
+      "isBorder": false,
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Horticulture (South Zone)",
+          "portal": {
+            "name": "MCD 311 Citizen App",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Horticulture' > 'South Zone'"
+          },
+          "reason": "Avenue trees along Lajpat Nagar internal market roads fall under the administrative jurisdiction of MCD South Zone.",
+          "verified": true,
+          "verified_on": "2026-11-13"
+        },
+        "damaged_road": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Works Department (South Zone)",
+          "portal": {
+            "name": "MCD 311 Citizen App",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Roads & Footpaths' > 'Ward 142'"
+          },
+          "reason": "Feroze Gandhi Marg is an internal commercial road under 60 feet wide, placing resurfacing under MCD rather than Delhi PWD.",
+          "verified": true,
+          "verified_on": "2026-11-13"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Municipal Corporation of Delhi (MCD) — Department of Environment & Sanitation",
+          "portal": {
+            "name": "MCD 311 Citizen App",
+            "url": "https://mcdonline.nic.in",
+            "field_hint": "Select 'Market Sanitation' > 'Lajpat Nagar II'"
+          },
+          "reason": "Market association waste disposal points and secondary dustbins are serviced daily by MCD South sanitation trucks.",
+          "verified": true,
+          "verified_on": "2026-11-14"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Delhi Traffic Police — Southern District Traffic Unit",
+          "portal": {
+            "name": "Delhi Traffic Police Online Grievance",
+            "url": "https://delhitrafficpolice.nic.in",
+            "field_hint": "Select 'Signal Defect' > 'Ring Road Lajpat Nagar Cut'"
+          },
+          "reason": "Signal junction synchronization at the market ring road entry is controlled by Delhi Traffic Police Southern Unit.",
+          "verified": false,
+          "verified_on": null
+        }
+      }
+    }
+  ]
+}

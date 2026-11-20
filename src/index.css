@@ -1,0 +1,66 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --bg-municipal: #F6F3EC;
+    --text-municipal: #23211C;
+    --primary-municipal: #2F5D50;
+    --terracotta-municipal: #A94B30;
+    --sage-municipal: #3B6A56;
+    --border-municipal: #D8D1C5;
+  }
+
+  html {
+    scroll-behavior: smooth;
+    font-size: 17px;
+  }
+
+  body {
+    background-color: #F6F3EC;
+    color: #23211C;
+    font-family: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Fraunces', Georgia, serif;
+    color: #23211C;
+    font-feature-settings: "cv02", "cv03", "cv04", "cv11";
+    line-height: 1.25;
+  }
+
+  /* Accessible, crystal-clear focus ring for keyboard navigation */
+  :focus-visible {
+    outline: 3px solid #2F5D50 !important;
+    outline-offset: 3px !important;
+  }
+
+  /* Prevent iOS zoom on input focus while preserving 17px baseline */
+  input, textarea, select {
+    font-size: 17px;
+  }
+
+  /* Suppress blurry drop shadows in favor of crisp 1px civic borders */
+  .shadow-sm,
+  .shadow,
+  .shadow-md,
+  .shadow-lg,
+  .shadow-xl,
+  .shadow-2xl {
+    box-shadow: none !important;
+  }
+
+  /* Ensure touch targets meet minimum 48px height across interactive elements */
+  button, 
+  a, 
+  input[type="button"], 
+  input[type="submit"], 
+  input[type="reset"] {
+    touch-action: manipulation;
+  }
+}

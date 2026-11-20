@@ -1,0 +1,224 @@
+{
+  "city": "ghaziabad",
+  "cityName": "Ghaziabad Municipal District",
+  "locations": [
+    {
+      "id": "kaushambi_ghaziabad",
+      "name": "Kaushambi Bus Terminal & Wave Cinema Road",
+      "zone": "Zone II Vasundhara (Ward 14)",
+      "isBorder": true,
+      "borderDetails": {
+        "pairedLocationId": "anand_vihar_delhi",
+        "pairedLocationName": "Anand Vihar ISBT (Delhi)",
+        "explanation": "Located barely 250 metres across the Delhi-UP border from Anand Vihar, this road sits entirely in Uttar Pradesh, switching legal responsibility from MCD/PWD to Ghaziabad Nagar Nigam and GDA."
+      },
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Horticulture Division (Zone II Vasundhara)",
+          "portal": {
+            "name": "GNN 311 Citizen App / Nagar Nigam Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Horticulture & Trees' > 'Zone II (Vasundhara)'"
+          },
+          "reason": "Even though directly adjoining the Anand Vihar border, Kaushambi is within Uttar Pradesh territorial limits, placing tree clearance under Ghaziabad Nagar Nigam.",
+          "verified": true,
+          "verified_on": "2026-11-16"
+        },
+        "damaged_road": {
+          "responsible_authority": "Ghaziabad Development Authority (GDA) — Engineering Division",
+          "portal": {
+            "name": "GDA Janhit Citizen Portal",
+            "url": "https://gdaonline.gov.in",
+            "field_hint": "Select 'Infrastructure & Roads' > 'Kaushambi Transit Scheme'"
+          },
+          "reason": "The Kaushambi transit commercial corridor was built and retained by GDA rather than transferred to the municipal corporation.",
+          "verified": true,
+          "verified_on": "2026-11-17"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Health & Sanitation Department (Zone II)",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Garbage & Solid Waste' > 'Kaushambi Sector'"
+          },
+          "reason": "Solid waste management and transfer compactor stations in Kaushambi are operated directly by GNN Zone II.",
+          "verified": true,
+          "verified_on": "2026-11-15"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Ghaziabad Traffic Police & GNN Electrical Cell",
+          "portal": {
+            "name": "UP Traffic Police Portal / GNN 311",
+            "url": "https://traffic.uppolice.gov.in",
+            "field_hint": "Select 'Signal Failure' > 'Kaushambi Chowk'"
+          },
+          "reason": "Traffic lights at the Kaushambi terminal junction are managed jointly by the district traffic commissioner and Nagar Nigam electricians.",
+          "verified": false,
+          "verified_on": null
+        }
+      }
+    },
+    {
+      "id": "maharajpur_ghaziabad",
+      "name": "Maharajpur Checkpost & Surya Nagar East",
+      "zone": "Zone IV Mohan Nagar (Ward 38)",
+      "isBorder": true,
+      "borderDetails": {
+        "pairedLocationId": "apsara_border_delhi",
+        "pairedLocationName": "Apsara Border GT Road (Delhi)",
+        "explanation": "East of the Delhi state police toll barrier, jurisdiction shifts to Ghaziabad Nagar Nigam Zone IV Mohan Nagar."
+      },
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Horticulture Wing (Zone IV Mohan Nagar)",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Horticulture' > 'Mohan Nagar Zone'"
+          },
+          "reason": "Avenue plantation along the Maharajpur corridor is serviced by GNN Zone IV horticulture teams.",
+          "verified": true,
+          "verified_on": "2026-11-11"
+        },
+        "damaged_road": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Mohan Nagar Engineering Cell",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Road Maintenance' > 'Maharajpur Link'"
+          },
+          "reason": "East of the state border toll pillar, roadway maintenance transitions to Ghaziabad Nagar Nigam Mohan Nagar zonal office.",
+          "verified": true,
+          "verified_on": "2026-11-11"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Health & Sanitation Wing",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Sanitation' > 'Surya Nagar Border'"
+          },
+          "reason": "Secondary waste collection on the Surya Nagar and Maharajpur service lanes is routed to the GNN Mohan Nagar transfer depot.",
+          "verified": true,
+          "verified_on": "2026-11-14"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Ghaziabad Traffic Police Unit (Mohan Nagar Circle)",
+          "portal": {
+            "name": "UP Traffic Police Grievance Cell",
+            "url": "https://traffic.uppolice.gov.in",
+            "field_hint": "Select 'Traffic Infrastructure' > 'Mohan Nagar Circle'"
+          },
+          "reason": "Maharajpur junction traffic control lights fall under Ghaziabad Traffic Police Mohan Nagar circle.",
+          "verified": false,
+          "verified_on": null
+        }
+      }
+    },
+    {
+      "id": "vasundhara_sec_10_ghaziabad",
+      "name": "Vasundhara Sector 10 & Atal Chowk",
+      "zone": "Zone II Vasundhara (Ward 22)",
+      "isBorder": false,
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Horticulture Cell (Zone II)",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Horticulture' > 'Sector 10 Vasundhara'"
+          },
+          "reason": "Park and avenue green cover in Vasundhara Sector 10 is maintained by GNN Zone II horticulture staff.",
+          "verified": true,
+          "verified_on": "2026-11-15"
+        },
+        "damaged_road": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Zone II Engineering Division",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Road Works' > 'Vasundhara Sector 10'"
+          },
+          "reason": "Sector 10 internal streets are fully transferred municipal roads under GNN Zone II jurisdiction.",
+          "verified": true,
+          "verified_on": "2026-11-15"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Health Department (Zone II)",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Solid Waste' > 'Atal Chowk Depot'"
+          },
+          "reason": "Door-to-door collection concessionaires in Vasundhara report directly to the GNN sanitary inspector for Zone II.",
+          "verified": true,
+          "verified_on": "2026-11-16"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "GNN Electrical Division & Ghaziabad Traffic Police",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Electrical & Signals' > 'Atal Chowk Intersection'"
+          },
+          "reason": "Atal Chowk traffic light synchronization is managed by GNN electrical cell in Vasundhara.",
+          "verified": true,
+          "verified_on": "2026-11-15"
+        }
+      }
+    },
+    {
+      "id": "raj_nagar_ext_ghaziabad",
+      "name": "Raj Nagar Extension Commercial Spine & Bypass",
+      "zone": "GDA Layout & Zone V (Ward 84)",
+      "isBorder": false,
+      "routes": {
+        "fallen_tree": {
+          "responsible_authority": "Ghaziabad Development Authority (GDA) — Horticulture Wing",
+          "portal": {
+            "name": "GDA Janhit Portal",
+            "url": "https://gdaonline.gov.in",
+            "field_hint": "Select 'Horticulture' > 'Raj Nagar Ext Median'"
+          },
+          "reason": "Median plantations along the Raj Nagar Extension bypass are maintained by GDA horticulturists.",
+          "verified": false,
+          "verified_on": null
+        },
+        "damaged_road": {
+          "responsible_authority": "Ghaziabad Development Authority (GDA) — Infrastructure Cell",
+          "portal": {
+            "name": "GDA Janhit Citizen Portal",
+            "url": "https://gdaonline.gov.in",
+            "field_hint": "Select 'Road Maintenance' > 'Raj Nagar Extension Spine'"
+          },
+          "reason": "Because Raj Nagar Extension is a developing township scheme, the primary arterial bypass remains under GDA supervision.",
+          "verified": true,
+          "verified_on": "2026-11-14"
+        },
+        "overflowing_garbage": {
+          "responsible_authority": "Ghaziabad Nagar Nigam (GNN) — Sanitation Cell (Zone V Kavi Nagar)",
+          "portal": {
+            "name": "GNN 311 Citizen Portal",
+            "url": "https://gnn311.up.gov.in",
+            "field_hint": "Select 'Sanitation' > 'Raj Nagar Ext Commercial Zone'"
+          },
+          "reason": "Solid waste handling in Raj Nagar Extension was formally handed over to GNN Zone V in 2024.",
+          "verified": true,
+          "verified_on": "2026-11-13"
+        },
+        "broken_traffic_signal": {
+          "responsible_authority": "Ghaziabad Traffic Police & GDA Traffic Engineering",
+          "portal": {
+            "name": "UP Traffic Police Portal",
+            "url": "https://traffic.uppolice.gov.in",
+            "field_hint": "Select 'Signal Failure' > 'Meerut Road Bypass Cut'"
+          },
+          "reason": "Signals at the Meerut Road bypass cut are installed by GDA and controlled by Ghaziabad Traffic Police.",
+          "verified": false,
+          "verified_on": null
+        }
+      }
+    }
+  ]
+}
